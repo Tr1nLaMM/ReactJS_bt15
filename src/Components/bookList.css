@@ -1,0 +1,36 @@
+.book-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .book-pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .book-pagination-container button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-pagination-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-pagination-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
